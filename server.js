@@ -16,8 +16,8 @@ app.get('/ui/main.css', function (req, res) {
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
-app.get('/ui/christina%20perri-%20Head%20or%20heart.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'christina%20perri-%20Head%20or%20heart.jpg'));
+app.get('/ui/christina perri- Head or heart.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'christina perri- Head or heart.jpg'));
 });
 app.get('/ui/black.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'black.jpg'));
